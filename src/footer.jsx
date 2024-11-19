@@ -104,7 +104,7 @@ export const Footer = () => {
                <div className="py-6 text-base border-t border-t-[rgba(256,256,256,0.1)]">
                <div className="flex flex-col md:flex-row justify-between items-center p-4  text-white">
     <div className="text-center md:text-left mb-3 md:mb-0">
-        &copy; <a className="border-b border-white" href="#">NZDine</a>, All Rights Reserved.
+        &copy; <a className="border-b border-white" href="#">ChickBite</a>, All Rights Reserved.
     </div>
     <div className="footer-menu mt-3 md:mt-0">
         <a href="#" className="mr-4 pr-4 border-r border-r-[rgba(255, 255, 255, 0.1)] last:border-r-0">Home</a>

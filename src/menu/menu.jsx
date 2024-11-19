@@ -20,7 +20,7 @@ export const Menu = () => {
     return(
         <div className="">
 <div 
-    className="h-[390px] relative bg-cover bg-center bg-no-repeat text-white" 
+    className="h-[390px] relative bg-cover bg-center bg-no-repeat text-white w-full" 
     style={{ 
         backgroundImage: `linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)), url(${HeroBg})` 
     }}
@@ -56,7 +56,7 @@ export const Menu = () => {
                     <h1 className="mb-5 text-query text-[#0F172B] font-nun font-bold leading-custom">Most Popular Items</h1>
                 </div>
                 
-                <div className="text-center pl-10 md:pl-0">
+                <div className="text-center pl-10 lg:pl-0">
     <ul className="nav nav-pills flex flex-wrap justify-center border-b mb-5">
         <li className="nav-item w-1/2 md:w-auto">
             <a className={`flex items-center text-start mx-3 ms-0 pb-3 active 
