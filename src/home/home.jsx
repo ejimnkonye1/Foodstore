@@ -12,9 +12,9 @@ export const Homepage = () => {
    
     return (
         <div className=''>
-        <div className=" relative bg-cover bg-center bg-no-repeat text-white "
+        <div className=" relative bg-cover bg-center bg-no-repeat text-white"
         style={{backgroundImage: `url(${MainHeroBg})`}}>
-        <div className="absolute inset-0 bg-gray-900 opacity-90"></div>
+        <div className="absolute inset-0 bg-gray-900 opacity-80"></div>
         
          <Hero />
         </div>
